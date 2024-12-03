@@ -1,0 +1,24 @@
+.header {
+    background-color: $bg-color;
+    padding: 35px 0;
+}
+
+.header__wrapper {
+    @include d-flex(space-between, 0)
+}
+
+.header__menu {
+    @include d-flex(flex-start, 20px)
+}
+
+.header__link {
+    font-size: 20px;
+    color: $text-color;
+
+}
+
+.btn {
+    display: none;
+    background-color: transparent;
+    border: none;
+}

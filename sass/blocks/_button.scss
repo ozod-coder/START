@@ -1,0 +1,16 @@
+.about__btn {
+    padding: 10px 40px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+}
+
+.btn--light {
+    color: $dark-color;
+    background-color: $text-color;
+}
+
+.btn--dark {
+    color: $text-color;
+    background-color: $dark-color;
+}
